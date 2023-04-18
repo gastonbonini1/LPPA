@@ -28,7 +28,7 @@
 
             <div>
                 <label for="edad">Edad:</label>
-                <input type="text" name="" id="edad">
+                <input type="number" name="" id="edad"  min="18" max="80">
             </div>
 
             <div>                   
@@ -68,7 +68,7 @@
                 <label for="sede">Sede</label>
                 
                 <select name="" id="sede">
-                    <option value="r-p">Rosario-Pellegrini</option>
+                    <option value="r-p">Rosario-Pellegrini</option>         <!-- CARGA DE SELECT -->
                     <option value="r-l">Rosario-Lagos</option>
                     <option value="ba">Buenos Aires</option>
                 </select>
@@ -77,10 +77,25 @@
 
             <div>
 
-                <label for="fechanac"></label>
+                <label for="fechaNac">Fecha de nacimiento</label>      <!-- CARGA DE FECHA (DATE) -->
+                <input type="date" name="" id="fechaNac">
+                
+            </div>
+
+            <div>
+
+                <label for="password">Contraseña</label>   
+                <input type="password" name="" id="password">       <!-- CARGA DE CONTRASEÑA -->
 
             </div>
 
+
+            <DIV>
+                <button type="submit">Cargar formulario</button>
+                <input type="reset" value="Eliminar">
+            </DIV>
+
+            
 
         </form>
     </main>
