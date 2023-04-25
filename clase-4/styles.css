@@ -1,0 +1,47 @@
+#titular{
+    color:salmon
+}
+
+header{
+    background-color: lightpink;
+    height: auto;
+}
+
+#nav-list{
+    list-style:square 
+}
+
+a{
+    text-decoration:none;
+    color:black
+}
+
+main{
+    background-color: rgb(206, 105, 219);
+    height: auto;
+}
+
+#section-1{
+    font-size: 18px;
+    border: 5px solid black
+}
+
+#section-2{
+    font-size: 25;
+    border-right: 5px solid white ;
+    border-left: 5px solid greenyellow ;
+     
+}
+
+footer{
+    background-color: tan;
+
+}
+
+#logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: skyblue;
+
+}

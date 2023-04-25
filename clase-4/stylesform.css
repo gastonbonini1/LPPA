@@ -1,0 +1,21 @@
+#title{color: rgb(238, 193, 176);}
+
+body{ background-color: rgb(142, 171, 180);}
+
+
+input{
+    margin-bottom: 20px;
+}
+
+input[type="date"] {
+    color: aquamarine;
+    background-color: blue;
+}
+
+input[type="text"]{
+    background-color: rosybrown;
+}
+
+select{
+    margin-bottom: 20px;
+}
