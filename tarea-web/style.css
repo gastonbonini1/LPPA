@@ -1,0 +1,19 @@
+#header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+#img1{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+#nav-list{
+    list-style: square;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
